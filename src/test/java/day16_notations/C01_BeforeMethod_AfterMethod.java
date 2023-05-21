@@ -15,7 +15,7 @@ public class C01_BeforeMethod_AfterMethod extends TestBase {
 
     }
     @Test
-    public void test03() {
+    public void instaTest() {
         driver.get("https://www.instagram.com");
 
     }
