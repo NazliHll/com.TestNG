@@ -14,6 +14,11 @@ public class C01_YeniDriverIlkClass {
         Driver.getDriver()-->  in
         driver            -->  out
          */
+        Driver.closeDriver();
+        Driver.getDriver().get("https://www.bestbuy.com");
+        Driver.getDriver().get("https://www.facebook.com");
+
+        Driver.closeDriver();
 
     }
 }
