@@ -1,25 +1,22 @@
-package day16_notations;
+package tests.day16_notations;
 
 import org.testng.annotations.Test;
 import utilities.TestBase;
 
-public class C03_Priority extends TestBase {
-    @Test(priority = -5)
+public class C01_BeforeMethod_AfterMethod extends TestBase {
+    @Test
     public void test01() {
         driver.get("https://www.amazon.com");
-        System.out.println(driver.getCurrentUrl());
 
     }
-    @Test(priority = -2)
+    @Test
     public void test02() {
         driver.get("https://www.bestbuy.com");
-        System.out.println(driver.getCurrentUrl());
 
     }
     @Test
     public void instaTest() {
         driver.get("https://www.instagram.com");
-        System.out.println(driver.getCurrentUrl());
 
     }
 }
