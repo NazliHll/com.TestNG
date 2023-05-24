@@ -2,7 +2,7 @@
 <suite name="tum testler">
     <test name="regression">
         <packages>
-            <package name=".*"></package>
+            <package name="tests.*"></package>
         </packages>
     </test>
 </suite>
