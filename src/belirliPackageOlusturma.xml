@@ -6,4 +6,9 @@
             <package name="tests.day18_pom"></package>
         </packages>
     </test>
+    <test name="ayri test classi">
+        <classes>
+            <class name="tests.day19_smokeTest.NegatifLoginTest"></class>
+        </classes>
+    </test>
 </suite>
