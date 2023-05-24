@@ -21,6 +21,10 @@ public class BrcPage {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement ikinciLoginButonu;
 
+    @FindBy(id = "dropdown-basic-button")
+    public WebElement kullaniciProfilIsmi;
+
+
 
 
 }
